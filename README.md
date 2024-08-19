@@ -11,6 +11,7 @@ This tool requires a Parrot Anafi drone and its controller, and a laptop running
 
 #### Software Requirements
 See requirements.txt for required packages.
+See [SoftwarePilot](https://github.com/KevynAngueira/SoftwarePilot/) for details on the control software.
 
 ### Step 1: Set-up hardware
 - Power on drone, controller, and laptop.
