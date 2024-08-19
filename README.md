@@ -71,3 +71,8 @@ If you use this repo in your work, please use this citation:
   url={}
 }
 ```
+
+## Funding Acknowledgements
+The [Imageomics Institute](https://imageomics.osu.edu/) is supported by the National Science Foundation Award No. 2118240.
+
+The [ICICLE Institute](https://imageomics.osu.edu/) is funded by the National Science Foundation (NSF) under grant number OAC-2112606.
