@@ -4,7 +4,7 @@ import queue
 import olympe
 from SoftwarePilot import SoftwarePilot
 from ultralytics import YOLO
-import tracking as tracking
+import navigation as navigation
 import sys
 import json
 import time
@@ -75,7 +75,7 @@ class Tracker:
 
                     cv2frame = cv2.cvtColor(yuv_frame.as_ndarray(), cv2_cvt_color_flag)
 
-                    x_direction, y_direction, z_direction = tracking.get_next_action(cv2frame, self.model, output_directory, self.media.frame_counter)  # KEY LINE
+                    x_direction, y_direction, z_direction = navigation.get_next_action(cv2frame, self.model, output_directory, self.media.frame_counter)  # KEY LINE
                     #self.update_frame(cv2.imread('result.jpg'))
 
                     # save telemetry 

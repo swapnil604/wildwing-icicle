@@ -1,8 +1,9 @@
 # wildwing
 ### Autonomous UAS Software for In Situ Imageomics Missions
 
-This repo contains software to autonomously track group-living animals using Parrot Anafi drones.
+<img src="images/overview.png" alt="Thumbnail" width="600"/>
 
+#### This repo contains software to autonomously track group-living animals using Parrot Anafi drones.
 
 ## Instructions for use
 #### Hardware Requirements
@@ -30,6 +31,10 @@ Initialize the following parameters in the python scripts. You can use these par
 ### Step 3: Launch drone
 - Place drone in an area that is clear of obstructions
 - Execute ./launch.sh from the command line. This will launch the drone, and initialize the log and telemetry files to record the mission data.
+```
+./launch.sh
+```
+
 - Optional: manually maneuver from to a higher altitude using hand-held controller
 
 ### Step 3: Monitor the system
@@ -50,3 +55,19 @@ This script saves the video recordings, telemetry data, and YOLO outputs for eac
 To automatically label video data with behavior, we recommend using [KABR tools](https://github.com/Imageomics/kabr-tools).
 
 
+## Overview of WildWing framework
+![](images/framework.png)
+Framework of the WildWing unmanned aerial system (UAS) autonomous navigation control logic
+
+
+## Citation
+If you use this repo in your work, please use this citation:
+```
+@software{wildwing2024
+  author={Jenna Kline and Kevyn Irizarry and Alison Zhong},
+  doi={},
+  title={WildWing},
+  year={2024},
+  url={}
+}
+```

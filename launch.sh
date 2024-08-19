@@ -4,7 +4,7 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 
 # Activate the Conda environment
-conda activate streamsptracking
+conda activate wildwing
 
 # Generate a timestamp
 timestamp=$(date +"%Y%m%d_%H%M%S")
@@ -16,4 +16,4 @@ output_dir="missions/misson_record_$timestamp"
 mkdir -p "$output_dir"
 
 # Run the Python script and save the output to a log file
-python3 SPtrack.py "$output_dir" > "logs/output_$timestamp.log" 2>&1
+python3 controller.py "$output_dir" > "logs/output_$timestamp.log" 2>&1
