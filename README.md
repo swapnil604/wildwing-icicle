@@ -7,11 +7,13 @@
 
 ## Instructions for use
 #### Hardware Requirements
-This tool requires a Parrot Anafi drone and its controller, and a laptop running Ubuntu 22.04.4 OS on 86_64 architecture. 
+This tool requires a [Parrot Anafi drone](https://www.parrot.com/en/drones/anafi) and its controller, and a laptop running Ubuntu 22.04.4 OS on 86_64 architecture. 
 
 #### Software Requirements
+This tool requires a laptop running Ubuntu 22.04.4 OS with [VLC media player](https://www.videolan.org/) and a text editor, such as nano, emacs, or vi. VisualStudio may also be used.
+
 See [requirements.txt](requirements.txt) for required packages.
-See [SoftwarePilot](https://github.com/KevynAngueira/SoftwarePilot/) for details on the control software.
+Details on the control software here: [SoftwarePilot](https://github.com/KevynAngueira/SoftwarePilot/) 
 Optional: SmartPhone with [FreeFlight 6](https://apps.apple.com/us/app/freeflight-6/id1386165299) app to connect drone and controller.
 
 ### Step 1: Set-up hardware
