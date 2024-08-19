@@ -37,7 +37,7 @@ Initialize the following parameters in the python scripts. You can use these par
 
 ### Step 3: Launch drone
 - Place drone in an area that is clear of obstructions
-- Execute ./[launch.sh](launch.sh) from the command line. This will launch the drone, and initialize the log and telemetry files to record the mission data.
+- Execute [launch.sh](launch.sh) from the command line. This will launch the drone, and initialize the log and telemetry files to record the mission data.
 ```
 ./launch.sh
 ```
