@@ -7,18 +7,24 @@
 
 ## Instructions for use
 #### Hardware Requirements
-This tool requires a Parrot Anafi drone and its controller, and a laptop running Ubuntu OS on AMD.
+This tool requires a Parrot Anafi drone and its controller, and a laptop running Ubuntu 22.04.4 OS on 86_64 architecture. 
 
 #### Software Requirements
-See requirements.txt for required packages.
+See [requirements.txt](requirements.txt) for required packages.
 See [SoftwarePilot](https://github.com/KevynAngueira/SoftwarePilot/) for details on the control software.
+Optional: SmartPhone with [FreeFlight 6](https://apps.apple.com/us/app/freeflight-6/id1386165299) app to connect drone and controller.
 
 ### Step 1: Set-up hardware
-- Power on drone, controller, and laptop.
-- Connect drone and controller following the instructions in the FreeFlight app.
+- On the laptop, create conda environment using the [requirements.txt](requirements.txt) file by running the following command. Note: you only need to create this conda environment once.
+  ```
+  conda create --name wildwing --file requirements.txt
+  ```
+- Connect drone and controller. Power on the drone and the Parrot Skycontroller. Plug the drone and the controller together with an USB-A (controller) to USB-C (drone) cable. The LED light on the controller will turn blue once connected and you can unplug the controller from the drone. Optional: you may also follow the instructions in the FreeFlight app to connect the drone and controller. 
 - Plug the controller into the laptop using USB-C cable.
 - Using [VLC media player](https://www.videolan.org/), connect to drone live-stream. From the “Media” menu of VLC, select “Open network stream”. Enter “rtsp://192.168.53.1/live” in the Network URL field.
-
+```
+conda create --name wildwing --file requirements.txt
+```
 ### Step 2: Initialize software parameters
 Initialize the following parameters in the python scripts. You can use these parameters to customize the mission for specific weather conditions, species, and habitats.
 - [controller.py](controller.py)
