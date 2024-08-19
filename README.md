@@ -16,13 +16,13 @@ See requirements.txt for required packages.
 - Power on drone, controller, and laptop.
 - Connect drone and controller following the instructions in the FreeFlight app.
 - Plug the controller into the laptop using USB-C cable.
-- Using VLC, connect to drone live-stream. From the “Media” menu of VLC, select “Open network stream”. Enter “rtsp://192.168.53.1/live” in the Network URL field.
+- Using [VLC media player](https://www.videolan.org/), connect to drone live-stream. From the “Media” menu of VLC, select “Open network stream”. Enter “rtsp://192.168.53.1/live” in the Network URL field.
 
 ### Step 2: Initialize software parameters
 Initialize the following parameters in the python scripts. You can use these parameters to customize the mission for specific weather conditions, species, and habitats.
-- controller.py
+- [controller.py](controller.py)
   - DURATION: number of sections to execute autonomous tracking mission
-- navigation.py
+- [navigation.py](navigation.py)
   - x_dist: move +/- X meters in forward/backward plane
   - x_dist_no_subject: move +/- X meters forward if no subject detected
   - y_dist: move +/- X meters in left/right plane
@@ -30,7 +30,7 @@ Initialize the following parameters in the python scripts. You can use these par
 
 ### Step 3: Launch drone
 - Place drone in an area that is clear of obstructions
-- Execute ./launch.sh from the command line. This will launch the drone, and initialize the log and telemetry files to record the mission data.
+- Execute ./[launch.sh](launch.sh) from the command line. This will launch the drone, and initialize the log and telemetry files to record the mission data.
 ```
 ./launch.sh
 ```
@@ -44,14 +44,14 @@ Initialize the following parameters in the python scripts. You can use these par
 
 ### Step 4: End mission
 Once the mission duration is complete, you may continue the autonomous tracking mission, or land the drone using the remote controller.
-To continue the mission without first landing, comment out line 111 in controller.py, shown below, and save the file. Run ./launch.sh from the terminal to start the new mission.
+To continue the mission without first landing, comment out line 111 in [controller.py](controller.py), shown below, and save the file. Run ./[launch.sh](launch.sh)from the terminal to start the new mission.
 
 ```
 # drone.piloting.takeoff()
 ```
 
 ### Step 5: Analyze video data
-This script saves the video recordings, telemetry data, and YOLO outputs for each mission. See [imageomics/wildwingdeployment](https://huggingface.co/datasets/imageomics/wildwingdeployment) for example outputs.
+This script saves the video recordings, telemetry data, and YOLO outputs for each mission. See the [WildWing HuggingFace data repo](https://huggingface.co/datasets/imageomics/wildwingdeployment) for example outputs.
 To automatically label video data with behavior, we recommend using [KABR tools](https://github.com/Imageomics/kabr-tools).
 
 
