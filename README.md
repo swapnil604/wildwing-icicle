@@ -44,7 +44,7 @@ Initialize the following parameters in the python scripts. You can use these par
 
 ### Step 4: End mission
 Once the mission duration is complete, you may continue the autonomous tracking mission, or land the drone using the remote controller.
-To continue the mission without first landing, comment out line 111 in controller.py, shown below, and save the file. Run ./launch.sh from the terminal to start the new mission.
+To continue the mission without first landing, comment out line 113 in controller.py, shown below, and save the file. Run ./launch.sh from the terminal to start the new mission.
 
 ```
 # drone.piloting.takeoff()
@@ -61,7 +61,7 @@ Framework of the WildWing unmanned aerial system (UAS) autonomous navigation con
 
 
 ## Citation
-If you use this repo in your work, please use this citation:
+If you use this repo in your work, please cite the software:
 ```
 @software{wildwing2024
   author={Jenna Kline and Kevyn Irizarry and Alison Zhong},
@@ -70,4 +70,17 @@ If you use this repo in your work, please use this citation:
   year={2024},
   url={}
 }
+
+@INPROCEEDINGS{10336017,
+  author={Kline, Jenna and Stewart, Christopher and Berger-Wolf, Tanya and Ramirez, Michelle and Stevens, Samuel and Babu, Reshma Ramesh and Banerji, Namrata and Sheets, Alec and Balasubramaniam, Sowbaranika and Campolongo, Elizabeth and Thompson, Matthew and Stewart, Charles V. and Kholiavchenko, Maksim and Rubenstein, Daniel I. and Van Tiel, Nina and Miliko, Jackson},
+  booktitle={2023 IEEE International Conference on Autonomic Computing and Self-Organizing Systems (ACSOS)}, 
+  title={A Framework for Autonomic Computing for In Situ Imageomics}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={11-16},
+  keywords={Social groups;Ecosystems;Wildlife;Machine learning;Data collection;Cameras;Object recognition;autonomous flight;UAVs;ecology;machine learning;computer vision;imageomics},
+  doi={10.1109/ACSOS58161.2023.00018}}
+
+
 ```

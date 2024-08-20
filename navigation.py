@@ -150,7 +150,6 @@ def auto_navigation(results):
 
     return  direction_x, direction_y, direction_z
 
-
 def get_next_action(frame, model, directory, frame_counter):
     # Get the position of the herd in the frame
     count, results = detect_animals(frame, model)

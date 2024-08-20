@@ -106,11 +106,17 @@ class Tracker:
 sp = SoftwarePilot()
 model = YOLO('yolov5su')
 
+# Connect to the drone
 drone = sp.setup_drone("parrot_anafi", 1, "None")
 drone.connect()
+
+# Take off
 drone.piloting.takeoff()
+
+# wait for drone to stabilize
 time.sleep(5)
 
+# Create a tracker object
 tracker = Tracker(drone, model)
 
 # set up recording
@@ -120,8 +126,8 @@ drone.camera.media.start_recording()
 # wait for drone to stabilize
 time.sleep(5)
 
+# Start the stream
 drone.camera.media.setup_stream(yuv_frame_processing=tracker.track)
-
 drone.camera.media.start_stream() 
 
 # set window properties
@@ -137,6 +143,8 @@ drone.camera.media.stop_stream()
 drone.camera.media.stop_recording()
 drone.camera.media.download_last_media()
 
+# Land the drone
 drone.piloting.land()
 
+# Disconnect the droneß
 drone.disconnect()
