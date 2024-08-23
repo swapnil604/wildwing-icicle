@@ -1,9 +1,13 @@
 # wildwing
-### Autonomous UAS Software for In Situ Imageomics Missions
+## Autonomous UAS Software for In Situ Imageomics Missions
 
 <img src="images/overview.png" alt="Thumbnail" width="600"/>
 
 #### This repo contains software to autonomously track group-living animals using Parrot Anafi drones.
+
+## Overview of WildWing framework
+![](images/framework.png)
+Framework of the WildWing unmanned aerial system (UAS) autonomous navigation control logic
 
 ## Instructions for use
 #### Hardware Requirements
@@ -59,12 +63,16 @@ To continue the mission without first landing, comment out the takeoff lineß in
 
 ### Step 5: Analyze video data
 This script saves the video recordings, telemetry data, and YOLO outputs for each mission. See the [WildWing HuggingFace data repo](https://huggingface.co/datasets/imageomics/wildwingdeployment) for example outputs.
+
 To automatically label video data with behavior, we recommend using [KABR tools](https://github.com/Imageomics/kabr-tools).
 
+To analyze the [telemetry data](telemetry), use the [data analysis notebook](data_analysis.ipynb).
 
-## Overview of WildWing framework
-![](images/framework.png)
-Framework of the WildWing unmanned aerial system (UAS) autonomous navigation control logic
+See the map of the missions [here](https://imageomics.github.io/wildwing/map.html).
+![](images/wildwingmap.png)
+Mapped mission telemetry
+
+
 
 
 ## Citation
