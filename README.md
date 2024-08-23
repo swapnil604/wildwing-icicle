@@ -70,7 +70,7 @@ To analyze the [telemetry data](telemetry), use the [data analysis notebook](dat
 
 Interactive map of the missions [here](https://imageomics.github.io/wildwing/map.html).
 
-![](images/map.pdf)
+![](images/maps.png)
 Mapped mission telemetry
 
 
