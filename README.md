@@ -68,7 +68,8 @@ To automatically label video data with behavior, we recommend using [KABR tools]
 
 To analyze the [telemetry data](telemetry), use the [data analysis notebook](data_analysis.ipynb).
 
-See the map of the missions [here](https://imageomics.github.io/wildwing/map.html).
+Interactive map of the missions [here](https://imageomics.github.io/wildwing/map.html).
+
 ![](images/wildwingmap.png)
 Mapped mission telemetry
 
