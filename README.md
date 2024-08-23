@@ -66,12 +66,12 @@ This script saves the video recordings, telemetry data, and YOLO outputs for eac
 
 To automatically label video data with behavior, we recommend using [KABR tools](https://github.com/Imageomics/kabr-tools).
 
-To analyze the [telemetry data](telemetry), use the [data analysis notebook](data_analysis.ipynb).
+To analyze the telemetry, use the [data analysis notebook](data_analysis.ipynb). See [telemetry.zip](https://huggingface.co/datasets/imageomics/wildwingdeployment/blob/main/telemetry.zip) on HuggingFace for example outputs.
 
 Interactive map of the missions [here](https://imageomics.github.io/wildwing/map.html).
 
 ![](images/maps.png)
-Mapped mission telemetry
+Mapped mission telemetry.
 
 
 
