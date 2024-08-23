@@ -51,7 +51,7 @@ Initialize the following parameters in the python scripts. You can use these par
 
 ### Step 4: End mission
 Once the mission duration is complete, you may continue the autonomous tracking mission, or land the drone using the remote controller.
-To continue the mission without first landing, comment out line 111 in [controller.py](controller.py), shown below, and save the file. Run [launch.sh](launch.sh) from the terminal to start the new mission.
+To continue the mission without first landing, comment out the takeoff lineß in [controller.py](controller.py), shown below, and save the file. Run [launch.sh](launch.sh) from the terminal to start the new mission.
 
 ```
 # drone.piloting.takeoff()
