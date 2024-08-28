@@ -22,7 +22,7 @@ DURATION = 200 # duration in seconds
 
 # Retrieve the filename from command-line arguments
 if len(sys.argv) < 2:
-    print("Usage: python SPtrack.py <output_directory>")
+    print("Usage: python controller.py <output_directory>")
     sys.exit(1)
 
 output_directory = sys.argv[1]

@@ -14,10 +14,10 @@ Framework of the WildWing unmanned aerial system (UAS) autonomous navigation con
 This tool requires a [Parrot Anafi drone](https://www.parrot.com/en/drones/anafi) and its controller, and a laptop running Ubuntu 22.04.4 OS on 86_64 architecture. 
 
 #### Software Requirements
-This tool requires a laptop running Ubuntu 22.04.4 OS with [VLC media player](https://www.videolan.org/) and a text editor, such as nano, emacs, or vi. VisualStudio may also be used.
+This tool requires a laptop running Ubuntu 22.04.4 OS with [VLC media player](https://www.videolan.org/) and a text editor, such as nano, emacs, or vi. VisualStudio Code may also be used.
 
-See [requirements.txt](requirements.txt) for required packages.
-Details on the control software here: [SoftwarePilot](https://github.com/KevynAngueira/SoftwarePilot/) 
+See [requirements.txt](requirements.txt) for required packages. \
+Details on the control software here: [SoftwarePilot](https://github.com/KevynAngueira/SoftwarePilot/) \
 Optional: SmartPhone with [FreeFlight 6](https://apps.apple.com/us/app/freeflight-6/id1386165299) app to connect drone and controller.
 
 ### Step 1: Set-up hardware
@@ -55,7 +55,7 @@ Initialize the following parameters in the python scripts. You can use these par
 
 ### Step 4: End mission
 Once the mission duration is complete, you may continue the autonomous tracking mission, or land the drone using the remote controller.
-To continue the mission without first landing, comment out the takeoff lineß in [controller.py](controller.py), shown below, and save the file. Run [launch.sh](launch.sh) from the terminal to start the new mission.
+To continue the mission without first landing, comment out the takeoff line in [controller.py](controller.py), shown below, and save the file. Run [launch.sh](launch.sh) from the terminal to start the new mission.
 
 ```
 # drone.piloting.takeoff()
