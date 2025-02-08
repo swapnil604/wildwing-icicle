@@ -7,7 +7,7 @@
 
 ## Overview of WildWing framework
 ![](images/ww.png)
-Framework of the WildWing unmanned aerial system (UAS) autonomous navigation control logic
+The WildWing Unmanned Aerial System (UAS) consists of three components: a Parrot Anafi drone, open-source control software, and a laptop equipped with GPU. The control software connects the drone to the autonomous navigation policy and allows users to monitor the system during deployment. The navigation policy analyzes video frames using computer vision models and determines the next commands to send to the drone. The control software is hosted on the laptop, where the users can also monitor the live WildWing system deployment.
 
 ## Instructions for use
 See the [WildWing wiki](wiki.md) for detailed instructions on how to deploy the WildWing system.
