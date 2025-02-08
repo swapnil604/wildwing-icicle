@@ -79,7 +79,7 @@ class Tracker:
                     #self.update_frame(cv2.imread('result.jpg'))
 
                     # save telemetry 
-                    # test!
+                   
                     telemetry = drone.get_drone_coordinates()
                 
                      # Convert time.time() to datetime object
