@@ -64,13 +64,12 @@ To continue the mission without first landing, comment out the takeoff line in [
 ```
 
 ### Step 5: Analyze video data
-This script saves the video recordings, telemetry data, and YOLO outputs for each mission. See the [WildWing HuggingFace data repo](https://huggingface.co/datasets/imageomics/wildwingdeployment) for example outputs.
+This script saves the video recordings, telemetry data, and YOLO outputs for each mission. See the [WildWing telemetry]() for example outputs.
 
 To automatically label video data with behavior, we recommend using [KABR tools](https://github.com/Imageomics/kabr-tools).
 
-To analyze the telemetry, use the [data analysis notebook](data_analysis.ipynb). See [telemetry.zip]()in Zenodo for example outputs.
+To analyze the telemetry, use the [data analysis notebook](data_analysis.ipynb).
 
-Interactive map of the missions [here](https://imageomics.github.io/wildwing/map.html).
 
 ![](images/maps.png)
 Mapped mission telemetry.
