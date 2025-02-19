@@ -64,7 +64,7 @@ To continue the mission without first landing, comment out the takeoff line in [
 ```
 
 ### Step 5: Analyze video data
-This script saves the video recordings, telemetry data, and YOLO outputs for each mission. See the [WildWing telemetry]() for example outputs.
+This script saves the video recordings, telemetry data, and YOLO outputs for each mission. See the [WildWing deployment data](https://doi.org/10.5281/zenodo.14838101) in Zenodo for example outputs.
 
 To automatically label video data with behavior, we recommend using [KABR tools](https://github.com/Imageomics/kabr-tools).
 
