@@ -1,4 +1,4 @@
-# wildwing
+# wildwing [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14902303.svg)](https://doi.org/10.5281/zenodo.14902303)
 ## Autonomous UAS Software for In Situ Imageomics Missions
 
 
