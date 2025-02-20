@@ -1,45 +1,15 @@
-abstract: WildWing is a software package to deploy autonomous Parrot drone missions study wildlife in the field.
-authors:
-- family-names: Kline
-  given-names: Jenna 
-  orcid: https://orcid.org/0009-0006-7301-5774
 cff-version: 1.0.0
-date-released: "2025-02-20"
-identifiers:
-  - description: "The GitHub release URL of tag 1.0.0."
-    type: url
-    value: "https://github.com/Imageomics/<repo>/releases/tag/<tag-name>"
-  - description: "The GitHub URL of the commit tagged with <tag-name>."
-    type: url
-    value: "https://github.com/Imageomics/<repo>/tree/<commit-hash>"
-keywords:
-  - imageomics
-license:
-message: "If you find this software helpful in your research, please cite both the software and our paper."
-repository-code: "https://github.com/Imageomics/<repo>"
-title: "<repo title>"
-version: <release version>
-doi: <DOI from Zenodo>
-type: software
-preferred-citation:
-  type: article
-  authors:
-    - family-names:
-      given-names:
-    - family-names:
-      given-names:
-  title: 
-  year:
-  journal:
-  doi: 
-references:
-  - authors:
-      - family-names:
-        given-names:
-      - family-names:
-        given-names:
-    title: 
-    version:
-    type:
-    doi: 
-    date-released:
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Jenna
+  given-names: Kline
+  orcid: https://orcid.org/0009-0006-7301-5774
+- family-names:  Irizarry
+  given-names: Kevyn
+- family-names:  Zhong
+  given-names: Alison
+title: "wildwing"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2025-02-20
+url: "https://github.com/Imageomics/wildwing"
