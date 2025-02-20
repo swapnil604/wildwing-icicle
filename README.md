@@ -1,12 +1,13 @@
 # wildwing
 ## Autonomous UAS Software for In Situ Imageomics Missions
 
-<img src="images/overview.png" alt="Thumbnail" width="600"/>
+
+![Summary of the WildDrone system, showing a drone and a laptop. There is are two arrows between the drone and the laptop, showing they are connected with the SoftwarePilot control software, with the Python logo.](images/overview.png)
 
 #### This repo contains software to autonomously track group-living animals using Parrot Anafi drones.
 
 ## Overview of WildWing framework
-![](images/ww.png)
+![Detailed overview of the WildWing control system, including drone, control software, and GPU laptop. The control software includes an illustration of video frames flowing into the navigation component and outputting commands. The navigation includes computer vision models and autonomous policy. The GPU laptop illustrates the live system system monitoring, including battery level and video stream.](images/ww.png)
 The WildWing Unmanned Aerial System (UAS) consists of three components: a Parrot Anafi drone, open-source control software, and a laptop equipped with GPU. The control software connects the drone to the autonomous navigation policy and allows users to monitor the system during deployment. The navigation policy analyzes video frames using computer vision models and determines the next commands to send to the drone. The control software is hosted on the laptop, where the users can also monitor the live WildWing system deployment.
 
 ## Instructions for use
@@ -71,5 +72,11 @@ To automatically label video data with behavior, we recommend using [KABR tools]
 To analyze the telemetry, use the [data analysis notebook](data_analysis.ipynb).
 
 
-![](images/maps.png)
+![Map displaying drone missions with photos of the animals surveyed, including horses, giraffes, and zebras.](images/maps.png)
 Mapped mission telemetry.
+
+
+### Acknowledgements
+This work was supported by the [Imageomics Institute](https://imageomics.org), which is funded by the US National Science Foundation's Harnessing the Data Revolution (HDR) program under [Award #2118240](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118240) (Imageomics: A New Frontier of Biological Information Powered by Knowledge-Guided Machine Learning). Additional support was also provided by the [AI Institute for Intelligent Cyberinfrastructure with Computational Learning in the Environment (ICICLE)](https://icicle.osu.edu/), which is funded by the US National Science Foundation under [Award #2112606](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2112606). Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+The data was gathered at [The Wilds](https://www.thewilds.org/), a private, non-profit conservation center located on nearly 10,000 acres of reclaimed coal mine land in southeastern Ohio. The Wilds is home to rare and endangered species from around the world living in natural, open-range habitats. The data collection was conducted under approval by the The Wilds Science Committee.
