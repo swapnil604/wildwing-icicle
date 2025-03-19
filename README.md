@@ -1,14 +1,17 @@
 # wildwing [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14902303.svg)](https://doi.org/10.5281/zenodo.14902303)
-## Autonomous UAS Software for In Situ Imageomics Missions
+## WildWing: An open-source, autonomous and affordable UAS for animal behaviour video monitoring
 
 
-![Summary of the WildDrone system, showing a drone and a laptop. There is are two arrows between the drone and the laptop, showing they are connected with the SoftwarePilot control software, with the Python logo.](images/overview.png)
+![Summary of the WildWing system, showing a drone and a laptop. There is are two arrows between the drone and the laptop, showing they are connected with the SoftwarePilot control software, with the Python logo.](images/overview.png)
 
 #### This repo contains software to autonomously track group-living animals using Parrot Anafi drones.
 
 ## Overview of WildWing framework
 ![Detailed overview of the WildWing control system, including drone, control software, and GPU laptop. The control software includes an illustration of video frames flowing into the navigation component and outputting commands. The navigation includes computer vision models and autonomous policy. The GPU laptop illustrates the live system system monitoring, including battery level and video stream.](images/ww.png)
 The WildWing Unmanned Aerial System (UAS) consists of three components: a Parrot Anafi drone, open-source control software, and a laptop equipped with GPU. The control software connects the drone to the autonomous navigation policy and allows users to monitor the system during deployment. The navigation policy analyzes video frames using computer vision models and determines the next commands to send to the drone. The control software is hosted on the laptop, where the users can also monitor the live WildWing system deployment.
+
+## Paper and Dataset
+Read our paper [here](https://doi.org/10.1111/2041-210X.70018) and find dataset [here](https://doi.org/10.5281/zenodo.14838100).
 
 ## Instructions for use
 See the [WildWing wiki](wiki.md) for detailed instructions on how to deploy the WildWing system.
