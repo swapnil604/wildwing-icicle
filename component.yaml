@@ -1,0 +1,27 @@
+- id: wildwing
+    name: WildWing UAS
+    status: PrototypeRelease
+    website: 
+    description: An open-source, autonomous and affordable UAS for animal behaviour video monitoring using Parrot Anafi drones
+    owner: Jenna Kline
+    primaryThrust: useInspired/AE
+    sourceCodeUrl: 
+    targetIcicleRelease: 2025-01
+    componentVersion: 1.0
+    licenseUrl: https://opensource.org/licenses/MIT
+    releaseNotesUrl:
+    containerImage:
+    codeReviewConducted: false
+    testsWritten: false
+    securityReviewConducted: false
+    biasAssessmentConducted: false
+    usageDocumentationAvailable: true
+    usageDocumentationUrl: wiki.md
+    usageMetricsCollected: false
+    publicAccess: true
+    restrictedToRole: false
+    hasDependentComponents:
+        - related_to: softwarepilot
+          relationship_type: DependsOn
+        - related_to: yolov5
+          relationship_type: DependsOn
