@@ -3,7 +3,6 @@ annotated-types==0.7.0
 anyio==4.4.0
 asn1tools==0.167.0
 backcall==0.2.0
-backports.zoneinfo==0.2.1
 bitstruct==8.19.0
 black==24.4.2
 boltons==24.0.0
@@ -54,8 +53,8 @@ nvidia-cusparse-cu12==12.1.0.106
 nvidia-nccl-cu12==2.20.5
 nvidia-nvjitlink-cu12==12.5.82
 nvidia-nvtx-cu12==12.1.105
-opencv-python==4.10.0
-opencv-python-headless==4.10.0
+opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
 pandas==2.0.3
 parrot-olympe==7.5.0
 pathspec==0.12.1
